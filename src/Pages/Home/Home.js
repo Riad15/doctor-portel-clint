@@ -1,5 +1,6 @@
 import React from 'react';
 import Bannar from './Bannar';
+import ContactUs from './ContactUs';
 import Info from './Info';
 import MakeAppiontment from './MakeAppiontment';
 import Services from './Services';
@@ -13,6 +14,7 @@ const Home = () => {
             <Services></Services>
             <MakeAppiontment></MakeAppiontment>
             <Testimonial></Testimonial>
+            <ContactUs></ContactUs>
         </div>
     );
 };
