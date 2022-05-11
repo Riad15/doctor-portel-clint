@@ -3,7 +3,7 @@ import chare from '../../assets/images/chair.png'
 
 const Bannar = () => {
     return (
-        <div className="hero min-h-screen px-14 ">
+        <div className="hero min-h-screen lg:px-14 ">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={chare} className="max-w-sm rounded-lg shadow-2xl" />
                 <div>
